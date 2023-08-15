@@ -29,6 +29,13 @@ Explore Amazon Braket examples.
 
     pages/examples.rst
 
+Try out Amazon Braket examples in interactive Jupyter notebooks.
+
+.. toctree::
+    :maxdepth: 2
+
+    pages/interactive_example.rst
+
 ***************
 Python SDK APIs
 ***************
@@ -36,7 +43,7 @@ Python SDK APIs
 The Amazon Braket Python SDK APIs:
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     
     _apidoc/modules
 
