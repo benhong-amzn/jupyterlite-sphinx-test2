@@ -7,7 +7,7 @@ extensions = [
 
 # html_theme = "pydata_sphinx_theme"
 html_theme = "sphinx_rtd_theme"
-html_logo = "_static/icon.svg"
+html_logo = "_static/amz-braket.png"
 html_title = "Amazon Braket Python SDK"
 
 jupyterlite_contents = "./custom_contents"
@@ -16,7 +16,7 @@ jupyterlite_bind_ipynb_suffix = False
 master_doc = 'index'
 
 # General information about the project.
-project = 'JupyterLite Sphinx extension'
+project = 'Amazon Braket SDK'
 
 # theme configuration
 html_theme_options = {
