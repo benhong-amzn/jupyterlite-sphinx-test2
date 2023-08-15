@@ -6,7 +6,7 @@ extensions = [
 ]
 
 # html_theme = "pydata_sphinx_theme"
-html_theme = "sphinx_rtd_them"
+html_theme = "sphinx_rtd_theme"
 html_logo = "_static/icon.svg"
 html_title = "Amazon Braket Python SDK"
 
