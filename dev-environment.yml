@@ -3,6 +3,7 @@ channels:
     - conda-forge
 dependencies:
     - pip
+    - jupyterlite-sphinx
     - jupyter_server
     - jupyterlab_server
     - jupyterlite-core >=0.1.0,<0.2
