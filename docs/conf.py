@@ -5,8 +5,10 @@ extensions = [
     'myst_parser',
 ]
 
-html_theme = "pydata_sphinx_theme"
+# html_theme = "pydata_sphinx_theme"
+html_theme = "sphinx_rtd_them"
 html_logo = "_static/icon.svg"
+html_title = "Amazon Braket Python SDK"
 
 jupyterlite_contents = "./custom_contents"
 jupyterlite_bind_ipynb_suffix = False
