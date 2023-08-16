@@ -36,17 +36,6 @@ Try out Amazon Braket examples in interactive Jupyter notebooks.
 
     pages/interactive_example.rst
 
-***************
-Python SDK APIs
-***************
-
-The Amazon Braket Python SDK APIs:
-
-.. toctree::
-    :maxdepth: 1
-    
-    _apidoc/modules
-
 *****************
 Python Scratchpad
 *****************
