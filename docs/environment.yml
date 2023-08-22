@@ -5,4 +5,3 @@ channels:
 dependencies:
   - pandas
   - matplotlib
-  - amazon-braket-sdk

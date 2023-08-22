@@ -9,6 +9,7 @@ dependencies:
     - jupyterlite-core >=0.1.0,<0.2
     - jupyterlite-xeus-python >=0.9.0,<0.10.0
     - sphinx-rtd-theme
+    - jupyterlab-open-url-parameter
     - myst-parser
     - docutils
     - sphinx
