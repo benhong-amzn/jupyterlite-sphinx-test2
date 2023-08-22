@@ -23,7 +23,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/jupyterlite/jupyterlite-sphinx",
+            "url": "https://github.com/aws/amazon-braket-sdk-python",
             "icon": "fa-brands fa-github",
         }
     ]
