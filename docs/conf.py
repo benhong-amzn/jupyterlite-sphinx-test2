@@ -2,8 +2,7 @@
 
 extensions = [
     'jupyterlite_sphinx',
-    'myst_parser',
-    'jupyterlab_open_url_parameter'
+    'myst_parser'
 ]
 
 # html_theme = "pydata_sphinx_theme"
