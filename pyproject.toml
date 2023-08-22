@@ -1,7 +1,3 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [project]
 name = "jupyterlite-sphinx"
 dynamic = ["version"]
@@ -20,27 +16,9 @@ dependencies = [
     "sphinx>=4",
 ]
 
-[project.optional-dependencies]
-dev = [
-    "hatch",
-]
-
 docs = [
     "myst_parser",
     "sphinx-rtd-theme",
     "jupyterlite-xeus-python>=0.9.0,<0.10.0",
 ]
 
-[tool.hatch.version]
-path = "jupyterlite_sphinx/__init__.py"
-
-[tool.hatch.build.targets.sdist]
-include = [
-    "/jupyterlite_sphinx",
-]
-
-[tool.hatch.envs.docs]
-features = ["docs"]
-[tool.hatch.envs.docs.scripts]
-build = "sphinx-build -W -b html docs docs/build/html"
-serve = "python -m http.server --directory docs/build/html"
