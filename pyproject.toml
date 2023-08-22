@@ -15,10 +15,3 @@ dependencies = [
     "jupyterlite-core >=0.1.0",
     "sphinx>=4",
 ]
-
-docs = [
-    "myst_parser",
-    "sphinx-rtd-theme",
-    "jupyterlite-xeus-python>=0.9.0,<0.10.0",
-]
-
